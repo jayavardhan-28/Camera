@@ -8,7 +8,7 @@
 /* BODY */
 body {
     height: 100vh;
-    background: radial-gradient(circle at top, #1e1b2f, #0a0815);
+    background: radial-gradient(circle at top, #0a1f14, #00100a);
     overflow: hidden;
 }
 
@@ -19,13 +19,13 @@ body {
     padding: 30px;
     border-radius: 50px;
     z-index: 1;
-    background: rgba(30,27,47,0.95);
-    border: 2px solid rgba(218,94,255,0.6);
-    box-shadow: 0 0 40px rgba(218,94,255,0.4);
+    background: rgba(10,31,20,0.95);
+    border: 2px solid rgba(0,255,180,0.6);
+    box-shadow: 0 0 40px rgba(0,255,180,0.4);
 }
 
 .gallery-card h3 {
-    color: #da5eff;
+    color: #00ffb4;
     margin-bottom: 15px;
 }
 
@@ -65,12 +65,12 @@ body {
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(16px);
     box-shadow:
-      0 0 40px rgba(218,94,255,0.8),
-      0 0 120px rgba(218,94,255,0.4);
+      0 0 40px rgba(0,255,180,0.8),
+      0 0 120px rgba(0,255,180,0.4);
 }
 
 .camera-container h2 {
-    color: #da5eff;
+    color: #00ffb4;
     margin-bottom: 14px;
 }
 
@@ -79,7 +79,7 @@ body {
     height: 220px;
     border-radius: 20px;
     overflow: hidden;
-    border: 2px solid rgba(218,94,255,0.7);
+    border: 2px solid rgba(0,255,180,0.7);
 }
 
 video {
@@ -101,13 +101,13 @@ button {
     cursor: pointer;
     font-weight: 600;
     color: white;
-    background: linear-gradient(135deg,#da5eff,#a23cff);
+    background: linear-gradient(135deg,#00ffb4,#00bfae);
 }
 
 /* STATUS */
 #status {
     margin-top: 8px;
-    color: #dcd6f7;
+    color: #b2fff2;
     font-size: 13px;
 }
 
@@ -126,7 +126,7 @@ button {
     max-width: 90%;
     max-height: 90%;
     border-radius: 25px;
-    box-shadow: 0 0 60px rgba(218,94,255,0.9);
+    box-shadow: 0 0 60px rgba(0,255,180,0.9);
 }
 
 #closeModal {
